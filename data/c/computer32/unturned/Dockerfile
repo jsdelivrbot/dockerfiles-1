@@ -8,8 +8,8 @@ RUN wget
 https://raw.githubusercontent.com/jpenton/Rocket.Unturned/master/Rocket.Unturned/Scripts/Linux/rocket.sh
 -P /root/Scripts/  
 RUN wget
-https://cdn.rawgit.com/jpenton/Rocket.Unturned/master/Rocket.Unturned/Scripts/Linux/start.sh
-https://cdn.rawgit.com/jpenton/Rocket.Unturned/master/Rocket.Unturned/Scripts/Linux/update.sh
+https://cdn.jsdelivr.net/gh/jpenton/Rocket.Unturned/Rocket.Unturned/Scripts/Linux/start.sh
+https://cdn.jsdelivr.net/gh/jpenton/Rocket.Unturned/Rocket.Unturned/Scripts/Linux/update.sh
 -P /root/Scripts/  
 RUN chmod +x /root/Scripts/*  
 RUN sed -i -e 's/\r$//' /root/Scripts/update.sh  

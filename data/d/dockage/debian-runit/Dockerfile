@@ -8,7 +8,7 @@ SERVICE_ENABLED_DIR=/service
   
 ENV SVDIR=${SERVICE_ENABLED_DIR} \  
 SVWAIT=7  
-ADD https://cdn.rawgit.com/dockage/runit-scripts/f994f02f/scripts/installer
+ADD https://cdn.jsdelivr.net/gh/dockage/runit-scripts@f994f02f/scripts/installer
 /opt/  
 RUN apt-get update \  
 && apt-get install -y runit \  

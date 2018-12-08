@@ -18,7 +18,7 @@ tree
 RUN mkdir -p /etc/bash_completion.d  
 RUN cd /etc/bash_completion.d/ \  
 && curl -SLO
-https://rawgit.com/django/django/stable/1.11.x/extras/django_bash_completion  
+https://cdn.jsdelivr.net/gh/django/django@stable/1.11.x/extras/django_bash_completion  
   
 WORKDIR /root/src/djangogirls  
 COPY requirements.txt requirements.txt  

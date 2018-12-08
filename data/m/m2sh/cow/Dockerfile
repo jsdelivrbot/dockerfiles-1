@@ -15,7 +15,7 @@ RUN gunzip /tmp/cow.gz \
 && mkdir $HOME/.cow  
   
 # replace english version of config (rc)  
-RUN curl -L https://cdn.rawgit.com/cyfdecyf/cow/master/doc/sample-config/rc-en
+RUN curl -L https://cdn.jsdelivr.net/gh/cyfdecyf/cow/doc/sample-config/rc-en
 > $HOME/.cow/rc  
   
 COPY entrypoint.sh /usr/local/bin/docker-entrypoint.sh  
